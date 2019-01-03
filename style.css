@@ -1,0 +1,175 @@
+body{
+	background-image:url(img/bg2.jpg);
+	color: black;
+	font-family : perpetua;
+}
+.men {
+  list-style:none; /*menghilangkan dot list*/
+}
+.menuu {
+  display:inline; /*membuat menu menjadi Horizontal*/
+  padding-right:50px;
+}
+.menuu:hover{color:white;}
+.judul{
+	padding-top:10px;
+	margin-left:30px;
+	float:left;
+	height:70px;
+
+}
+.sidebar{
+	padding-bottom: 10px;
+	margin-left:-20px;
+}
+#nav{
+	float:right;
+	padding-top:30px;
+	margin-right:100px;
+	height:70px;
+}
+article{
+	width:800px;
+	float:left;
+	margin-left:40px;
+}
+section{
+	margin-top: 30px;
+	margin-left: 70px;
+	float: left;
+}
+aside {
+	float:right;
+	padding-left: 20px
+	width:400px;
+	padding-right : 20px;
+	margin-right:100px;
+	height:100%;
+}
+.kotak_login{
+	border-bottom:2px solid brown;
+	width: 200px;
+	padding: 30px 20px;
+
+}
+ 
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 200px;
+	padding: 10px;
+	font-size: 10px;
+	font-family:arial;
+	margin-bottom: 20px;
+}
+ 
+.tombol_login{
+	background: orange;
+	color: white;
+	font-size: 11pt;
+	width: 100px;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+ 
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
+.tulisan_login{
+	font-family:rockwell;
+	font-weight:bold;
+}
+
+.category{
+	padding-bottom:10px;
+	padding-top:10px;
+	list-style:none;
+	font-family:Bell MT;
+	color:black;
+}
+header{
+	border-bottom: black dotted 3px;
+	background-color: orange;
+}
+.tombol_baca{
+	background-color:brown;
+	color: white;
+	width: 150px;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+.cari{
+	margin-top:30px;
+	border-bottom:2px solid brown ;
+	padding-bottom:10px;
+}
+.btn-search {
+	  background: orange;
+	  border-radius: 0;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #1c1c1c;
+	}
+	.btn-search:link, .btn-search:visited {
+	  color: #fff;
+	}
+	.btn-search:active, .btn-search:hover {
+	  background: #1c1c1c;
+	  color: #fff;
+	}
+	.search {
+			padding:8px 15px;
+			background:rgba(50, 50, 50, 0.2);
+			border:0px solid #dbdbdb;
+		}
+		.button {
+			position:relative;
+			padding:6px 15px;
+			left:-8px;
+			border:2px solid orange;
+			background-color:orange;
+			color:#fafafa;
+		}
+		.button:hover  {
+			background-color:#fafafa;
+			color:#207cca;
+		}
+				  
+		::-webkit-input-placeholder { /* For WebKit browsers */
+			color:    black;
+						font-family:Helvetica Neue;
+						font-weight:bold;
+		}
+		:-moz-placeholder { /* For Mozilla Firefox 4 to 18 */
+			color:    black;
+						font-family:Helvetica Neue;
+						font-weight:bold;
+		}
+		::-moz-placeholder { /* For Mozilla Firefox 19+ */
+			color:    black;
+						font-family:Helvetica Neue;
+						font-weight:bold;
+		}
+		:-ms-input-placeholder { /* For Internet Explorer 10+ */
+			color:    black;
+						font-family:Helvetica Neue;
+						font-weight:bold;
+		}	  
+.aaa{
+	width:750px;
+	margin-left: 30px;
+	padding:10px;
+	margin-top:20px;
+}
+footer{
+	height:50px;
+	background-color:black;
+	border-top: orange solid 5px;
+	color:white;
+	text-align:center;
+}
